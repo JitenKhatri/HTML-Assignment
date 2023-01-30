@@ -3,33 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0", shrink-to-fit="no">
-
-    <title>Login/register</title>
-    <link rel="stylesheet" href="css\style.css">
-    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
-    <script src="js\custom.js"></script>
-    <script src="js\bootstrap.bundle.min.js"></script>
-    <div class="main">
-        <div id="hero-img">
-            <img class="Hero-img" src="images\hero-image.png" alt="Hero-img">
-        </div>
-        <div class="login">
-            <img src="images/logo.svg" alt="Unfortunately Image could not load!!!">
-            <p class="title">We are <b style="color: #c22d2d;">experts</b> in bussiness, marketing, growth, & sales.</p>
-            <p class="a"> Login into Your Account</p>
-            <input type="text" class="username" placeholder="Username">
-            <input type="text" class="password" placeholder="Password">
-            <div class="button">
-                <input type="button" value="Login" />
-                <span>Forgot Password?</span>
+    <div class="container">
+        <div class="row ">
+            <div class="logo col-lg-4 ">
+                <img src="images/hero-image.png" alt="not load">
             </div>
-            <div class="register">
-                <p style="color: gray;">Are you a new Member?</p>
-                <p style="color: #c22d2d;cursor: pointer;">Register here</p>
+            <div class="login col-lg-5">
+                <img src="images/logo.svg" alt="not load">
+                <p class="title mt-3">We are <b style="color: #c22d2d;">experts</b> in bussiness, marketing, growth, &
+                    sales.</p>
+                <p class="a"> Login into Your Account</p>
+                <input type="text" class="form-control" id="inputUsername" placeholder="Username">
+                <input type="password" class="form-control mt-3" id="inputPassword" placeholder="Password">
+                <div class="button d-flex justify-content-between mt-3">
+                    <button type="button" class="btn btn-danger border rounded-pill">Login</button>
+                    <span class="text-muted pt-2">Forgot Password?</span>
+                </div>
+                <div class="register mt-3">
+                    <span class="text-muted">Are you a new Member?</span><span
+                        style="color: #c22d2d;cursor: pointer;">Register here</span>
+                </div>
             </div>
         </div>
     </div>
