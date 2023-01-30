@@ -1,215 +1,173 @@
-body {
-    background-color: whitesmoke;
+body{
+    background-color:whitesmoke;
 }
-
-.logo {
+.logo{
     margin-left: 100px;
 }
-
-.logo img {
+.logo img{
     margin-top: 150px;
     width: 400px;
     border-radius: 300px;
     border: solid 15px white;
 }
-
-.login {
+.login{
     margin-left: 50px;
     margin-top: 150px;
 }
-
-.title {
+.title{
     font-size: 30px;
 }
-
-.a {
+.a{
     font-size: 20px;
 }
-
-.login input {
+.login input{
     height: 40px;
     width: 320px;
 }
-
-.button {
-    width: 320px;
+.button{
+    width:320px ;
 }
-
-.button button {
+.button button{
     width: 115px;
     height: 35px;
 }
-
-.button span {
+.button span{
     font-size: 14px;
     cursor: pointer;
 }
-
-.register {
+.register{
+    font-size:14px ;
+}
+::placeholder{
     font-size: 14px;
 }
-
-::placeholder {
-    font-size: 14px;
-}
-
-@media screen and (max-width:1200px) and (min-width:992px) {
-    .logo img {
+@media screen and (max-width:1200px) and (min-width:992px){
+    .logo img{
         width: 350px;
     }
-
-    .title {
+    .title{
         font-size: 20px;
     }
-
-    .a {
+    .a{
         font-size: 15px;
     }
-
-    .login img {
+    .login img{
         width: 200px;
     }
-
-    .login input {
+    .login input{
         height: 30px;
         width: 270px;
     }
-
-    .button {
-        width: 270px;
+    .button{
+        width:270px ;
     }
-
-    .button button {
+    .button button{
         width: 70px;
         height: 35px;
     }
-
-    .button span {
+    .button span{
         font-size: 12px;
         cursor: pointer;
     }
-
-    .register {
-        font-size: 12px;
+    .register{
+        font-size:12px ;
     }
-
-    ::placeholder {
+    ::placeholder{
         font-size: 12px;
     }
 }
-
 @media screen and (max-width:992px) and (min-width:768px) {
     .logo {
         margin-top: 30px;
         margin-left: 115px;
     }
-
-    .login {
+    .login{
         margin-left: 180px;
         margin-top: 26px;
         width: 450px;
     }
-
-    .logo img {
+    .logo img{
         margin-top: 0px;
         width: 450px;
     }
-
-    .title {
+    .title{
         font-size: 30px;
     }
-
-    .a {
+    .a{
         font-size: 22px;
     }
-
-    .login img {
+    .login img{
         width: 300px;
     }
-
-    .login input {
+    .login input{
         height: 40px;
         width: 350px;
     }
-
-    .button {
-        width: 350px;
+    .button{
+        width:350px ;
     }
-
-    .button button {
+    .button button{
         width: 90px;
         height: 40px;
     }
-
-    .button span {
+    .button span{
         font-size: 16px;
         cursor: pointer;
     }
-
-    .register {
-        font-size: 16px;
+    .register{
+        font-size:16px ;
     }
-
-    ::placeholder {
+    ::placeholder{
         font-size: 16px;
     }
 }
-
-@media screen and (max-width:767px) and (min-width:360px) {
-    .logo img {
+@media screen and (max-width:767px) and (min-width:360px){
+    .logo img{
         width: 230px;
         margin-top: 30px;
         margin-left: 60px;
     }
-
-    .login img {
+    .login img{
         width: 140px;
     }
-
     .logo {
         margin-top: 0px;
         margin-left: 0px;
     }
-
-    .login {
+    .login{
         margin-left: 80px;
         margin-top: 10px;
         width: 250px;
     }
-
-    .title {
+    .title{
         font-size: 15px;
     }
-
-    .a {
+    .a{
         font-size: 12px;
     }
-
-    .login input {
+    .login input{
         height: 25px;
         width: 150px;
     }
-
-    .button {
-        width: 150px;
+    .button{
+        width:150px ;
     }
-
-    .button button {
+    .button button{
         width: 45px;
         height: 20px;
         font-size: 8px;
     }
-
-    .button span {
+    .button span{
         font-size: 10px;
         cursor: pointer;
     }
-
-    .register {
-        font-size: 10px;
+    .register{
+        font-size:10px ;
     }
-
-    ::placeholder {
+    ::placeholder{
         font-size: 10px;
     }
 }
+
+
+
