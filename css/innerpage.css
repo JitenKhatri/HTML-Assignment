@@ -157,3 +157,37 @@ td {
     background-size: 100% 2px;
     background-position: left bottom;
 }
+
+.search-form {
+    display: flex;
+    min-width: auto;
+    border: 0px;
+    margin: 1%;
+}
+
+.search-bar {
+    border: 0px;
+    min-width: auto;
+    margin-top: 0%;
+    margin-left: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .piechart {
+        margin-top: 0px;
+    }
+
+    .search-form {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 505px) {
+    .notification {
+        display: none;
+    }
+
+    .profile-detail {
+        display: none;
+    }
+}
